@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+}
+#nav{
+    width: auto;
+    min-height: 40px;
+    background-color: rgb(157 202 245);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+.cityName{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+#top{
+ width: 80%;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ border-bottom: 5px solid black;
+ justify-content: space-around;
+ margin: auto;
+
+}
+#container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    height: 400px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.content{
+    width: 100px;
+    height: 350px;
+    background-color: rgb(222, 218, 218);
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+}
+.images{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+#temp{
+    width: 60px;
+    height: 40px;
+    border:3px solid black;
+    border-style: double;
+}
+.all_temp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cold{
+color:blue;
+}
+.hot{
+color:red;
+}
+#cookie{
+    position: fixed;
+    bottom: 0;
+    left: 80px;
+    right:80px;
+    width: 80%;
+    border: 2px solid black;
+    background-color: rgb(222, 218, 218);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#text_cookie{
+    width: 60%;
+}
+#btn{
+    width: 80px;
+    height: 40px;
+    background-color:rgb(157 202 245) ;
+    border: 2px solid black;
+    box-shadow: 5px 3px 2px black;
+    font-size:medium;
+    font-weight: bold;
+}

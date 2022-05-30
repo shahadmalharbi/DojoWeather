@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="nav">
+      <div><h1>DojoWeather</h1></div>
+      <div class="cityName">
+        <div class="cityName"><h2>Burbank</h2></div>
+        <div class="cityName"><h2>Chicago</h2></div>
+        <div class="cityName"><h2>Dallas</h2></div>
+      </div>
+    </div>
+    <div id="top">
+      <div><h1>San Jose</h1></div>
+      <div>
+          <label for="temp"> show temperature in  </label>
+          <select name="temp" id="temp" onchange="change_temp(this)">
+            <option value="C">℃</option>
+            <option value="F">℉</option>
+          </select>
+      </div>
+    </div>
+    <div id="container">
+      <div class="content">
+          <h1>Today</h1>
+          <div><img  class="images" src="some_rain.png"> </div>
+          <h3>Some Rain</h3>
+          <div class="all_temp">
+              <h3 class="hot"><b class="ht">24</b><b>°</b></h3>
+              <h3 class="cold"><b class="cd">18</b><b>°</b></h3>
+          </div>
+     </div>
+      <div class="content">
+          <h1>Tomorrow</h1>
+          <div><img  class="images" src="some_sun.png"> </div>
+          <h3>Some Sun</h3>
+          <div class="all_temp">
+            <h3 class="hot"><b class="ht">27</b><b>°</b></h3>
+            <h3 class="cold"><b class="cd">19</b><b>°</b></h3>
+        </div>
+        </div>
+      <div class="content">
+          <h1>Friday</h1>
+          <div><img  class="images" src="some_clouds.png"> </div>
+          <h3>Some Clouds</h3>
+          <div class="all_temp">
+            <h3 class="hot"><b class="ht">21</b><b>°</b></h3>
+            <h3 class="cold"><b class="cd">16</b><b>°</b></h3>
+        </div>
+        </div>
+      <div class="content">
+          <h1>Saturday</h1>
+          <div><img  class="images" src="some_sun.png"> </div>
+          <h3>Some Sun</h3>
+          <div class="all_temp">
+            <h3 class="hot"><b class="ht">26</b><b>°</b></h3>
+            <h3 class="cold"><b class="cd">21</b><b>°</b></h3>
+        </div>
+        </div>
+    </div>
+    <div id="cookie">
+        <div><img src="cookie.png"></div>
+        <div id="text_cookie">
+             <h1>Stop! Cookie Time</h1>
+             <p>
+                 We use cookies(sadly not the edible ones) to personalize content and ads,
+                  to provide social media features and to analyse our traffic. <a href="#">Read more...</a>
+             </p>
+        </div>
+        <button id="btn" onclick="remove()">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
